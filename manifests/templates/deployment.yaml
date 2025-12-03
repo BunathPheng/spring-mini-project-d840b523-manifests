@@ -17,7 +17,6 @@ spec:
       labels:
         app: spring-mini-project-d840b523
     spec:
-      serviceAccountName: ingress-manager
       containers:
         - name: spring-mini-project-d840b523
           image: docker.io/phengbunath/spring-mini-project-d840b523:1
